@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kelas",
+    "name": "Smart Classroom",
+    "nameEn": "Smart Classroom",
+    "icon": "Monitor",
+    "description": "Ruang kelas modern dengan smart board, AC, dan akses internet berkecepatan tinggi.",
+    "descriptionEn": "Modern classrooms with smart boards, AC, and high-speed internet access."
+  },
+  {
+    "id": "lab",
+    "name": "Laboratorium",
+    "nameEn": "Laboratories",
+    "icon": "FlaskConical",
+    "description": "Lab sains, komputer, dan bahasa yang dilengkapi peralatan mutakhir untuk praktikum.",
+    "descriptionEn": "Science, computer, and language labs equipped with cutting-edge equipment for practicum."
+  },
+  {
+    "id": "perpustakaan",
+    "name": "Perpustakaan Digital",
+    "nameEn": "Digital Library",
+    "icon": "BookOpen",
+    "description": "Perpustakaan dengan koleksi buku fisik dan digital, zona baca nyaman, dan akses jurnal internasional.",
+    "descriptionEn": "Library with physical and digital book collections, comfortable reading zones, and international journal access."
+  },
+  {
+    "id": "olahraga",
+    "name": "Fasilitas Olahraga",
+    "nameEn": "Sports Facilities",
+    "icon": "Trophy",
+    "description": "Lapangan basket, futsal, kolam renang, dan gymnasium untuk pengembangan fisik siswa.",
+    "descriptionEn": "Basketball court, futsal field, swimming pool, and gymnasium for student physical development."
+  },
+  {
+    "id": "seni",
+    "name": "Studio Seni & Budaya",
+    "nameEn": "Art & Culture Studio",
+    "icon": "Palette",
+    "description": "Studio tari, musik, dan seni rupa untuk mengembangkan kreativitas dan apresiasi budaya.",
+    "descriptionEn": "Dance, music, and fine arts studios to develop creativity and cultural appreciation."
+  },
+  {
+    "id": "kantin",
+    "name": "Kantin Sehat",
+    "nameEn": "Healthy Canteen",
+    "icon": "UtensilsCrossed",
+    "description": "Kantin dengan pilihan makanan sehat, bergizi, dan higienis yang mendukung gaya hidup sehat.",
+    "descriptionEn": "Canteen with healthy, nutritious, and hygienic food choices supporting a healthy lifestyle."
+  }
+]

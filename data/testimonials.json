@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "I Putu Wirya",
+    "role": "Orang Tua Siswa",
+    "roleEn": "Parent",
+    "avatar": "/images/testimonials/parent-1.jpg",
+    "quote": "EduSchool telah memberikan pendidikan terbaik untuk anak saya. Pendekatan holistiknya membuat anak saya tumbuh percaya diri dan berprestasi.",
+    "quoteEn": "EduSchool has provided the best education for my child. The holistic approach has helped my child grow confident and accomplished."
+  },
+  {
+    "id": 2,
+    "name": "Ni Made Saraswati",
+    "role": "Alumni SMA 2023",
+    "roleEn": "High School Alumni 2023",
+    "avatar": "/images/testimonials/alumni-1.jpg",
+    "quote": "Berkat bimbingan guru-guru EduSchool, saya berhasil diterima di universitas impian saya di luar negeri. Terima kasih EduSchool!",
+    "quoteEn": "Thanks to the guidance of EduSchool teachers, I got accepted into my dream university abroad. Thank you EduSchool!"
+  },
+  {
+    "id": 3,
+    "name": "Komang Ayu Pratiwi",
+    "role": "Siswa Kelas 11 SMA",
+    "roleEn": "Grade 11 Student",
+    "avatar": "/images/testimonials/student-1.jpg",
+    "quote": "Belajar di EduSchool sangat menyenangkan! Banyak kegiatan seru dan guru-gurunya sangat mendukung bakat kami.",
+    "quoteEn": "Studying at EduSchool is so much fun! Lots of exciting activities and the teachers are very supportive of our talents."
+  },
+  {
+    "id": 4,
+    "name": "Dr. I Gede Suardana",
+    "role": "Ketua Komite Sekolah",
+    "roleEn": "School Committee Chair",
+    "avatar": "/images/testimonials/committee-1.jpg",
+    "quote": "EduSchool konsisten menjaga kualitas pendidikan dan transparansi dalam pengelolaan sekolah. Kami sangat mengapresiasi hal ini.",
+    "quoteEn": "EduSchool consistently maintains educational quality and transparency in school management. We greatly appreciate this."
+  }
+]

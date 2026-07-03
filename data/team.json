@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. I Wayan Adi Nugraha, M.Pd.",
+    "role": "Kepala Sekolah",
+    "roleEn": "Principal",
+    "photo": "/images/team/principal.jpg",
+    "bio": "Doktor Pendidikan dengan pengalaman lebih dari 20 tahun di dunia pendidikan internasional.",
+    "bioEn": "Doctor of Education with over 20 years of experience in international education."
+  },
+  {
+    "id": 2,
+    "name": "Ni Luh Putu Devi, S.Si., M.Sc.",
+    "role": "Wakil Kepala Bidang Akademik",
+    "roleEn": "Vice Principal of Academics",
+    "photo": "/images/team/academic-vp.jpg",
+    "bio": "Master Sains dari ITB, berpengalaman dalam pengembangan kurikulum STEAM.",
+    "bioEn": "Master of Science from ITB, experienced in STEAM curriculum development."
+  },
+  {
+    "id": 3,
+    "name": "I Komang Gede Wirawan, S.Pd.",
+    "role": "Wakil Kepala Bidang Kesiswaan",
+    "roleEn": "Vice Principal of Student Affairs",
+    "photo": "/images/team/student-vp.jpg",
+    "bio": "Berpengalaman dalam pembinaan karakter dan pengembangan bakat siswa.",
+    "bioEn": "Experienced in character building and student talent development."
+  },
+  {
+    "id": 4,
+    "name": "Putu Ayu Sari Dewi, S.Pd., M.Pd.",
+    "role": "Guru Senior - Matematika",
+    "roleEn": "Senior Teacher - Mathematics",
+    "photo": "/images/team/math-teacher.jpg",
+    "bio": "Inovator dalam pembelajaran matematika interaktif dan aplikatif.",
+    "bioEn": "Innovator in interactive and applicative mathematics learning."
+  },
+  {
+    "id": 5,
+    "name": "I Gusti Ngurah Putra, S.Sn., M.Si.",
+    "role": "Guru Seni & Budaya",
+    "roleEn": "Arts & Culture Teacher",
+    "photo": "/images/team/art-teacher.jpg",
+    "bio": "Seniman dan akademisi yang aktif melestarikan seni budaya Bali.",
+    "bioEn": "Artist and academic actively preserving Balinese arts and culture."
+  },
+  {
+    "id": 6,
+    "name": "Made Ayu Kristina Dewi, S.Pd.",
+    "role": "Guru Bahasa Inggris",
+    "roleEn": "English Teacher",
+    "photo": "/images/team/english-teacher.jpg",
+    "bio": "Pengajar bahasa Inggris dengan metode immersive learning.",
+    "bioEn": "English teacher with immersive learning methodology."
+  }
+]

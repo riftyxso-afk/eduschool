@@ -1,0 +1,10 @@
+[
+  { "id": 1, "src": "/images/gallery/classroom.jpg", "alt": "Kelas Interaktif", "altEn": "Interactive Classroom", "category": "Akademik", "categoryEn": "Academic" },
+  { "id": 2, "src": "/images/gallery/lab.jpg", "alt": "Praktikum Sains", "altEn": "Science Lab", "category": "Akademik", "categoryEn": "Academic" },
+  { "id": 3, "src": "/images/gallery/library.jpg", "alt": "Perpustakaan Digital", "altEn": "Digital Library", "category": "Fasilitas", "categoryEn": "Facility" },
+  { "id": 4, "src": "/images/gallery/sports.jpg", "alt": "Olahraga", "altEn": "Sports", "category": "Olahraga", "categoryEn": "Sports" },
+  { "id": 5, "src": "/images/gallery/dance.jpg", "alt": "Tari Tradisional Bali", "altEn": "Balinese Traditional Dance", "category": "Seni Budaya", "categoryEn": "Arts & Culture" },
+  { "id": 6, "src": "/images/gallery/robotics.jpg", "alt": "Kompetisi Robotik", "altEn": "Robotics Competition", "category": "Teknologi", "categoryEn": "Technology" },
+  { "id": 7, "src": "/images/gallery/field-trip.jpg", "alt": "Kunjungan Lapangan", "altEn": "Field Trip", "category": "Kegiatan", "categoryEn": "Activity" },
+  { "id": 8, "src": "/images/gallery/graduation.jpg", "alt": "Wisuda", "altEn": "Graduation", "category": "Acara", "categoryEn": "Event" }
+]

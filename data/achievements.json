@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Juara 1 Olimpiade Sains Nasional",
+    "titleEn": "National Science Olympiad Champion",
+    "category": "Akademik",
+    "categoryEn": "Academic",
+    "year": 2024,
+    "description": "Tim siswa EduSchool meraih medali emas dalam Olimpiade Sains Nasional bidang Fisika.",
+    "descriptionEn": "EduSchool student team won gold medal in the National Science Olympiad in Physics."
+  },
+  {
+    "id": 2,
+    "title": "Sekolah Adiwiyata Tingkat Provinsi",
+    "titleEn": "Provincial Adiwiyata School",
+    "category": "Lingkungan",
+    "categoryEn": "Environment",
+    "year": 2024,
+    "description": "Penghargaan sekolah peduli lingkungan dari Pemerintah Provinsi Bali.",
+    "descriptionEn": "Environmental awareness school award from the Bali Provincial Government."
+  },
+  {
+    "id": 3,
+    "title": "Juara 1 Lomba Tari Tradisional Bali",
+    "titleEn": "Bali Traditional Dance Competition Winner",
+    "category": "Seni Budaya",
+    "categoryEn": "Arts & Culture",
+    "year": 2023,
+    "description": "Siswa EduSchool meraih juara pertama dalam festival tari tradisional tingkat provinsi.",
+    "descriptionEn": "EduSchool students won first place in the provincial traditional dance festival."
+  },
+  {
+    "id": 4,
+    "title": "Akreditasi A - Unggul",
+    "titleEn": "Accreditation A - Excellent",
+    "category": "Akreditasi",
+    "categoryEn": "Accreditation",
+    "year": 2023,
+    "description": "Semua program pendidikan EduSchool meraih akreditasi A (Unggul) dari BAN-SM.",
+    "descriptionEn": "All EduSchool education programs achieved A (Excellent) accreditation from BAN-SM."
+  },
+  {
+    "id": 5,
+    "title": "Robotics Competition International",
+    "titleEn": "International Robotics Competition",
+    "category": "Teknologi",
+    "categoryEn": "Technology",
+    "year": 2023,
+    "description": "Tim robotik EduSchool meraih posisi 3 besar dalam kompetisi robotik internasional di Singapura.",
+    "descriptionEn": "EduSchool robotics team achieved top 3 in the international robotics competition in Singapore."
+  },
+  {
+    "id": 6,
+    "title": "Sekolah Sehat Nasional",
+    "titleEn": "National Healthy School",
+    "category": "Kesehatan",
+    "categoryEn": "Health",
+    "year": 2022,
+    "description": "Penghargaan sebagai sekolah sehat dari Kementerian Kesehatan RI.",
+    "descriptionEn": "Award as a healthy school from the Indonesian Ministry of Health."
+  }
+]

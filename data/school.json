@@ -1,0 +1,25 @@
+{
+  "name": "EduSchool Bali",
+  "tagline": "Membentuk Generasi Unggul, Kreatif, dan Berkarakter",
+  "taglineEn": "Shaping Excellent, Creative, and Character-Driven Generations",
+  "description": "EduSchool Bali adalah sekolah internasional modern yang menggabungkan kurikulum global dengan kearifan lokal Bali. Didirikan pada tahun 2015, kami berkomitmen untuk memberikan pendidikan holistik yang mengembangkan potensi akademik, kreativitas, dan karakter setiap siswa.",
+  "descriptionEn": "EduSchool Bali is a modern international school combining global curriculum with local Balinese wisdom. Founded in 2015, we are committed to providing holistic education that develops academic potential, creativity, and character in every student.",
+  "founded": 2015,
+  "location": "Bali, Indonesia",
+  "address": "Jl. Pendidikan No. 123, Seminyak, Bali 80361",
+  "phone": "+62 361 1234 567",
+  "email": "info@eduschoolbali.sch.id",
+  "website": "https://eduschoolbali.sch.id",
+  "social": {
+    "instagram": "https://instagram.com/eduschoolbali",
+    "facebook": "https://facebook.com/eduschoolbali",
+    "youtube": "https://youtube.com/@eduschoolbali",
+    "tiktok": "https://tiktok.com/@eduschoolbali"
+  },
+  "stats": [
+    { "label": "Siswa Terdaftar", "labelEn": "Enrolled Students", "value": 1200, "suffix": "+" },
+    { "label": "Tenaga Pengajar", "labelEn": "Teaching Staff", "value": 85, "suffix": "+" },
+    { "label": "Program Akademik", "labelEn": "Academic Programs", "value": 15, "suffix": "+" },
+    { "label": "Tahun Berdiri", "labelEn": "Years Established", "value": 9, "suffix": "+" }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pg-tk",
+    "name": "PG & TK",
+    "nameEn": "Pre-K & Kindergarten",
+    "age": "Usia 3-6 Tahun",
+    "ageEn": "Ages 3-6",
+    "icon": "Sprout",
+    "description": "Program awal yang fokus pada perkembangan motorik, sosial-emosional, dan kognitif melalui metode bermain sambil belajar.",
+    "descriptionEn": "An early program focusing on motor, social-emotional, and cognitive development through play-based learning.",
+    "highlights": ["Montessori Method", "Fun Learning", "Character Building", "Art & Music"],
+    "duration": "3 tahun",
+    "durationEn": "3 years",
+    "image": "/images/programs/pg-tk.jpg"
+  },
+  {
+    "id": "sd",
+    "name": "Sekolah Dasar",
+    "nameEn": "Elementary School",
+    "age": "Usia 7-12 Tahun",
+    "ageEn": "Ages 7-12",
+    "icon": "BookOpen",
+    "description": "Program dasar yang membangun fondasi akademik kuat dengan pendekatan integratif dan pengembangan karakter.",
+    "descriptionEn": "A foundational program building strong academic foundations with an integrative approach and character development.",
+    "highlights": ["STEAM Education", "Bilingual Program", "Project Based Learning", "Character Education"],
+    "duration": "6 tahun",
+    "durationEn": "6 years",
+    "image": "/images/programs/sd.jpg"
+  },
+  {
+    "id": "smp",
+    "name": "Sekolah Menengah Pertama",
+    "nameEn": "Middle School",
+    "age": "Usia 13-15 Tahun",
+    "ageEn": "Ages 13-15",
+    "icon": "Library",
+    "description": "Program transisi yang mengembangkan pemikiran kritis, kepemimpinan, dan eksplorasi minat akademik.",
+    "descriptionEn": "A transitional program developing critical thinking, leadership, and academic interest exploration.",
+    "highlights": ["Critical Thinking", "Leadership Program", "Academic Exploration", "Community Service"],
+    "duration": "3 tahun",
+    "durationEn": "3 years",
+    "image": "/images/programs/smp.jpg"
+  },
+  {
+    "id": "sma",
+    "name": "Sekolah Menengah Atas",
+    "nameEn": "High School",
+    "age": "Usia 16-18 Tahun",
+    "ageEn": "Ages 16-18",
+    "icon": "GraduationCap",
+    "description": "Program persiapan universitas dengan peminatan IPA, IPS, dan Bahasa, serta program International Baccalaureate.",
+    "descriptionEn": "A university preparation program with Science, Social, and Language tracks, plus International Baccalaureate program.",
+    "highlights": ["IB Program", "University Counseling", "Research Project", "Internship Program"],
+    "duration": "3 tahun",
+    "durationEn": "3 years",
+    "image": "/images/programs/sma.jpg"
+  },
+  {
+    "id": "ekstrakurikuler",
+    "name": "Ekstrakurikuler",
+    "nameEn": "Extracurricular",
+    "age": "Semua Usia",
+    "ageEn": "All Ages",
+    "icon": "Music",
+    "description": "Berbagai kegiatan pengembangan bakat dan minat di luar jam akademik, dari olahraga hingga seni budaya.",
+    "descriptionEn": "Various talent and interest development activities outside academic hours, from sports to cultural arts.",
+    "highlights": ["Sports", "Traditional Dance", "Robotics Club", "Debate Team"],
+    "duration": "Per semester",
+    "durationEn": "Per semester",
+    "image": "/images/programs/ekstrakurikuler.jpg"
+  }
+]

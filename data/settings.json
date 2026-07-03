@@ -1,0 +1,29 @@
+{
+  "siteName": "EduSchool Bali",
+  "siteNameShort": "EduSchool",
+  "siteUrl": "https://eduschoolbali.sch.id",
+  "locale": "id-ID",
+  "language": "id",
+  "defaultLang": "id",
+  "availableLangs": ["id", "en"],
+  "primaryColor": "#377EF9",
+  "secondaryColor": "#0EA5E9",
+  "accentColor": "#F59E0B",
+  "themeMode": "light",
+  "navLinks": [
+    { "label": "Beranda", "labelEn": "Home", "href": "/" },
+    { "label": "Tentang", "labelEn": "About", "href": "/about" },
+    { "label": "Program", "labelEn": "Programs", "href": "/programs" },
+    { "label": "Fasilitas", "labelEn": "Facilities", "href": "/facilities" },
+    { "label": "Berita", "labelEn": "News", "href": "/news" },
+    { "label": "Kontak", "labelEn": "Contact", "href": "/contact" }
+  ],
+  "footerLinks": [
+    { "label": "Tentang Kami", "labelEn": "About Us", "href": "/about" },
+    { "label": "Program Akademik", "labelEn": "Academic Programs", "href": "/programs" },
+    { "label": "Penerimaan Siswa", "labelEn": "Admissions", "href": "/admissions" },
+    { "label": "Fasilitas", "labelEn": "Facilities", "href": "/facilities" },
+    { "label": "Berita & Acara", "labelEn": "News & Events", "href": "/news" },
+    { "label": "Hubungi Kami", "labelEn": "Contact Us", "href": "/contact" }
+  ]
+}

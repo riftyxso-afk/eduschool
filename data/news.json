@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "slug": "penerimaan-siswa-baru-2025-2026",
+    "title": "Penerimaan Siswa Baru Tahun Ajaran 2025/2026",
+    "titleEn": "New Student Enrollment Academic Year 2025/2026",
+    "excerpt": "Pendaftaran siswa baru untuk tahun ajaran 2025/2026 telah dibuka. Daftarkan segera putra-putri Anda!",
+    "excerptEn": "Registration for new students for the 2025/2026 academic year is now open. Register your children now!",
+    "date": "2025-01-15",
+    "category": "Pendaftaran",
+    "categoryEn": "Registration",
+    "image": "/images/news/registration.jpg",
+    "author": "Admin EduSchool"
+  },
+  {
+    "id": 2,
+    "slug": "eduschool-bali-raih-juara-olimpiade-sains",
+    "title": "EduSchool Bali Raih Juara 1 Olimpiade Sains Nasional",
+    "titleEn": "EduSchool Bali Wins National Science Olympiad",
+    "excerpt": "Tim fisika EduSchool berhasil meraih medali emas dalam Olimpiade Sains Nasional 2024.",
+    "excerptEn": "The EduSchool physics team won a gold medal at the 2024 National Science Olympiad.",
+    "date": "2024-11-20",
+    "category": "Prestasi",
+    "categoryEn": "Achievement",
+    "image": "/images/news/olympiad.jpg",
+    "author": "Admin EduSchool"
+  },
+  {
+    "id": 3,
+    "slug": "workshop-steam-untuk-siswa-sd",
+    "title": "Workshop STEAM untuk Siswa Sekolah Dasar",
+    "titleEn": "STEAM Workshop for Elementary Students",
+    "excerpt": "Workshop STEAM interaktif yang melibatkan siswa dalam proyek sains dan teknologi kreatif.",
+    "excerptEn": "Interactive STEAM workshop engaging students in creative science and technology projects.",
+    "date": "2024-10-05",
+    "category": "Kegiatan",
+    "categoryEn": "Activity",
+    "image": "/images/news/steam.jpg",
+    "author": "Admin EduSchool"
+  },
+  {
+    "id": 4,
+    "slug": "festival-seni-budaya-bali-2024",
+    "title": "Festival Seni Budaya Bali di EduSchool",
+    "titleEn": "Bali Arts & Culture Festival at EduSchool",
+    "excerpt": "EduSchool menggelar festival seni budaya Bali yang menampilkan bakat siswa dalam tari, musik, dan seni rupa.",
+    "excerptEn": "EduSchool held a Balinese arts and culture festival showcasing student talents in dance, music, and fine arts.",
+    "date": "2024-09-12",
+    "category": "Budaya",
+    "categoryEn": "Culture",
+    "image": "/images/news/festival.jpg",
+    "author": "Admin EduSchool"
+  }
+]
