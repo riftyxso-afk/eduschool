@@ -1,6 +1,6 @@
 "use client";
 
-import { GraduationCap, MapPin, Phone, Mail, Instagram, Facebook, Youtube } from "lucide-react";
+import { GraduationCap, MapPin, Phone, Mail, Globe, Camera, Video } from "lucide-react";
 import { useLang } from "@/lib/lang";
 import school from "@/data/school.json";
 import settings from "@/data/settings.json";
@@ -43,13 +43,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a href={school.social.instagram} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="Instagram">
-                <Instagram size={16} />
+                <Camera size={16} />
               </a>
               <a href={school.social.facebook} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="Facebook">
-                <Facebook size={16} />
+                <Globe size={16} />
               </a>
               <a href={school.social.youtube} target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-lg bg-neutral-800 flex items-center justify-center text-neutral-400 hover:bg-primary hover:text-white transition-colors" aria-label="Youtube">
-                <Youtube size={16} />
+                <Video size={16} />
               </a>
             </div>
           </div>
