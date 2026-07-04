@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, GraduationCap, Globe } from "lucide-react";
+import { Menu, X, GraduationCap, Globe, Moon, Sun } from "lucide-react";
 import { useLang } from "@/lib/lang";
+import { useTheme } from "@/lib/theme";
 import { cn } from "@/lib/utils";
 import settings from "@/data/settings.json";
 
@@ -11,6 +12,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const { lang, toggleLang, t } = useLang();
+  const { dark, toggle: toggleTheme } = useTheme();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -25,7 +27,7 @@ export default function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm"
+          ? "bg-white/95 backdrop-blur-md shadow-sm dark:bg-neutral-900/95"
           : "bg-transparent"
       )}
     >
@@ -37,7 +39,7 @@ export default function Navbar() {
           <span
             className={cn(
               "font-heading font-bold text-lg transition-colors",
-              scrolled ? "text-neutral-900" : "text-white"
+              scrolled ? "text-neutral-900 dark:text-white" : "text-white"
             )}
           >
             {settings.siteNameShort}
@@ -52,7 +54,7 @@ export default function Navbar() {
               className={cn(
                 "px-4 py-2 rounded-[var(--radius-button)] text-sm font-medium transition-colors",
                 scrolled
-                  ? "text-neutral-600 hover:text-primary hover:bg-primary-lighter"
+                  ? "text-neutral-600 dark:text-neutral-300 hover:text-primary dark:hover:text-primary hover:bg-primary-lighter dark:hover:bg-primary/10"
                   : "text-white/90 hover:text-white hover:bg-white/10"
               )}
             >
@@ -61,13 +63,26 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1">
+          <button
+            onClick={toggleTheme}
+            className={cn(
+              "p-2 rounded-[var(--radius-button)] transition-colors",
+              scrolled
+                ? "text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800"
+                : "text-white/90 hover:bg-white/10"
+            )}
+            aria-label="Toggle dark mode"
+          >
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+
           <button
             onClick={toggleLang}
             className={cn(
               "p-2 rounded-[var(--radius-button)] transition-colors flex items-center gap-1.5 text-sm font-medium",
               scrolled
-                ? "text-neutral-600 hover:bg-neutral-100"
+                ? "text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-800"
                 : "text-white/90 hover:bg-white/10"
             )}
             aria-label="Toggle language"
@@ -80,7 +95,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(true)}
             className={cn(
               "p-2 rounded-[var(--radius-button)] md:hidden transition-colors",
-              scrolled ? "text-neutral-700" : "text-white"
+              scrolled ? "text-neutral-700 dark:text-neutral-300" : "text-white"
             )}
             aria-label="Open menu"
           >
@@ -96,15 +111,15 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
-            className="fixed inset-0 bg-white z-50 md:hidden"
+            className="fixed inset-0 bg-white dark:bg-neutral-900 z-50 md:hidden"
           >
-            <div className="flex items-center justify-between h-16 px-4 border-b">
-              <span className="font-heading font-bold text-lg text-neutral-900">
+            <div className="flex items-center justify-between h-16 px-4 border-b dark:border-neutral-700">
+              <span className="font-heading font-bold text-lg text-neutral-900 dark:text-white">
                 {settings.siteNameShort}
               </span>
               <button
                 onClick={() => setMobileOpen(false)}
-                className="p-2 text-neutral-700"
+                className="p-2 text-neutral-700 dark:text-neutral-300"
                 aria-label="Close menu"
               >
                 <X size={24} />
@@ -116,7 +131,7 @@ export default function Navbar() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="px-4 py-3 rounded-[var(--radius-button)] text-neutral-700 hover:bg-primary-lighter hover:text-primary font-medium transition-colors"
+                  className="px-4 py-3 rounded-[var(--radius-button)] text-neutral-700 dark:text-neutral-300 hover:bg-primary-lighter dark:hover:bg-primary/10 hover:text-primary font-medium transition-colors"
                 >
                   {t(link.label, link.labelEn)}
                 </a>

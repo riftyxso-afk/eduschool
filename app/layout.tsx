@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Quicksand } from "next/font/google";
 import "./globals.css";
-import ClientLayout from "@/components/ClientLayout";
+import RootClient from "@/components/RootClient";
 import settings from "@/data/settings.json";
 import school from "@/data/school.json";
 
@@ -23,12 +23,16 @@ export const metadata: Metadata = {
     template: `%s | ${settings.siteName}`,
   },
   description: school.description,
+  other: {
+    "theme-color": settings.primaryColor,
+  },
   openGraph: {
     title: settings.siteName,
     description: school.description,
     locale: settings.locale,
     type: "website",
   },
+  manifest: "/manifest.webmanifest",
 };
 
 export default function RootLayout({
@@ -37,9 +41,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={settings.language} className={`${inter.variable} ${quicksand.variable}`}>
+    <html lang={settings.language} suppressHydrationWarning className={`${inter.variable} ${quicksand.variable}`}>
       <body className="min-h-screen flex flex-col font-sans antialiased">
-        <ClientLayout>{children}</ClientLayout>
+        <RootClient>{children}</RootClient>
       </body>
     </html>
   );

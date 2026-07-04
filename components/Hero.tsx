@@ -75,7 +75,7 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="/admissions"
+            href="https://smabali.spmb.id/" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-[var(--radius-button)] bg-accent text-white font-semibold text-base hover:bg-accent/90 transition-all hover:shadow-lg hover:shadow-accent/25 active:scale-[0.98]"
           >
             {lang === "id" ? "Daftar Sekarang" : "Enroll Now"}

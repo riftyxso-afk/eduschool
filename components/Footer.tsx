@@ -11,7 +11,11 @@ export default function Footer() {
   const footerLinkGroups = [
     {
       title: { id: "Navigasi", en: "Navigation" },
-      links: settings.footerLinks,
+      links: [
+        ...settings.footerLinks,
+        { label: "Tur Sekolah", labelEn: "School Tour", href: "/book-tour" },
+        { label: "Admin", labelEn: "Admin", href: "/admin" },
+      ],
     },
     {
       title: { id: "Program", en: "Programs" },
